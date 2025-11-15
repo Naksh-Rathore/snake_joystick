@@ -35,11 +35,11 @@ Answer: The joystick wires can get loose sometimes, first check the connectivity
 
 This project can work with:
 
-* Snake
-* Subway Surfers
-* Candy Jump
-* Pacman
-* Geometry Dash (click/space mostly, pushbutton works better though)
+* **Snake**
+* **Subway Surfers**
+* **Candy Jump**
+* **Pacman**
+* **Geometry Dash** (click/space mostly, pushbutton works better though)
 
 And more!
 
