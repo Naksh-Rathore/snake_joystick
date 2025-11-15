@@ -18,6 +18,8 @@ To get started, follow these steps:
 5. Run your Python code (might take some tries to stop getting errors)
 6. Play, test, and modify!
 
+---
+
 ### Common Issues
 
 Issue: Python code is throwing errors
