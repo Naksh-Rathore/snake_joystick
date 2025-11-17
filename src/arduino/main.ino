@@ -9,6 +9,7 @@ const int joyStickYPin { A1 };
 const int joyStickButtonPin { 2 }; 
 
 void setJoyStickValues(int &joyStickXVal, int &joyStickYVal);
+int setButtonVal(int buttonPin);
 
 void setup() {
   Serial.begin(9600);
@@ -21,12 +22,15 @@ void loop() {
   int joyStickYVal{};
 
   setJoyStickValues(joyStickXVal, joyStickYVal);
+  int buttonVal { setButtonVal(joyStickButtonPin) };
 
   Serial.print(joyStickXVal);
   Serial.print(" ");
-  Serial.println(joyStickYVal);
+  Serial.print(joyStickYVal);
+  Serial.print(" ");
+  Serial.println(buttonVal);
 
-  if (joyStickXVal != 512 || joyStickYVal != 512)
+  if (joyStickXVal != 512 || joyStickYVal != 512 || buttonVal != 0)
     delay(100);
 
   delay(10);
@@ -56,5 +60,13 @@ void setJoyStickValues(int &joyStickXVal, int &joyStickYVal) {
 
     else
         joyStickYVal = 512;        
+}
 
+int setButtonVal(int buttonPin) {
+  int buttonVal { digitalRead(buttonPin) };
+
+  if (buttonVal == LOW)
+    return 1;
+
+  return 0;
 }

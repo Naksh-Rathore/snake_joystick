@@ -25,6 +25,11 @@ def press_buttons(parsed_data):
     x_val = parsed_data[0]
     y_val = parsed_data[1]
 
+    button_val = parsed_data[2]
+
+    if int(button_val) == 1:
+        keyboard.press_and_release("space")
+
     if int(x_val) < 200:  
         keyboard.press_and_release("right")
     elif int(x_val) > 800:  
@@ -34,7 +39,7 @@ def press_buttons(parsed_data):
         keyboard.press_and_release("down")
     elif int(y_val) > 800:  
         keyboard.press_and_release("up")
-
+         
 while (True):
     # Unreadable code lol
     raw_data = ser.readline().decode("utf-8").replace("\n", "").replace("\r", "")
