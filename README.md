@@ -22,14 +22,14 @@ To get started, follow these steps:
 
 ### Common Issues
 
-Issue: Python code is throwing errors<br/>
-Answer: Just rerun it and restart Arduino serial port until it works
+**Issue**: Python code is throwing errors<br/>
+**Answer**: Just rerun it and restart Arduino serial port until it works
 
-Issue: The joystick is too laggy<br/>
-Answer: Fix it by shortening the delay in `src/arduino/main.ino` in `void loop()` on this line: `if (joyStickXVal != 512 || joyStickYVal != 512) delay(100);`
+**Issue**: The joystick is too laggy<br/>
+**Answer**: Fix it by shortening the delay in `src/arduino/main.ino` in `void loop()` on this line: `if (joyStickXVal != 512 || joyStickYVal != 512) delay(100);`
 
-Issue: The keypresses aren't happening<br/>
-Answer: The joystick wires can get loose sometimes, first check the connectivity
+**Issue**: The keypresses aren't happening<br/>
+**Answer**: The joystick wires can get loose sometimes, first check the connectivity
 
 ## Compatible Games
 
