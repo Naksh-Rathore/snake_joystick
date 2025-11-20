@@ -20,6 +20,26 @@ To get started, follow these steps:
 
 ---
 
+## Folder Structure
+
+```
+.
+├── LICENSE
+├── README.md
+├── schematic.md
+└── src
+    ├── arduino
+    │   └── main.ino
+    └── python
+        └── main.py
+```
+
+Here is the folder structure and what it does:
+
+* `src/`: Holds source code
+* `src/arduino`: Holds source code for Arduino
+* `src/python`: Holds source code for Python
+
 ### Common Issues
 
 **Issue**: Python code is throwing errors<br/>
