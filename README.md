@@ -13,9 +13,9 @@ To get started, follow these steps:
 
 1. Clone the repository with `git clone https://github.com/Naksh-Rathore/snake_joystick.git` (add `--depth 1` or remove `.git` if you want to)
 2. Recreate the schematic from `schematic.md`
-3. Move the `.ino` code into Arduino IDE
+3. Move the `.ino` code (`src/arduino/main.ino`) into Arduino IDE
 4. Upload it into your Arduino
-5. Run your Python code (might take some tries to stop getting errors)
+5. Run your Python code (`src/python/main.py`) (might take some tries to stop getting errors)
 6. Play, test, and modify!
 
 ---
