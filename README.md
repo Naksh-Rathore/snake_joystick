@@ -53,6 +53,8 @@ We can natively do it with other MCUs, but this fairs well to most MCUs since th
 
 Feel free to make an issue, pull request, or contact me at any of my socials to ask me if you want! My issues, pull requests, and DMs are always open. That being said, I would like if the issues and PRs you send are **relevant**, **concise**, and are actually **helpful** in general. Spammy and unrelated issues and PRs will either be closed or given the `info-needed` tag. Thanks!
 
+---
+
 ### License
 
 This project is licensed under the MIT License. More info in the `LICENSE` file.
