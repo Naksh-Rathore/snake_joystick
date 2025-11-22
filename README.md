@@ -69,7 +69,8 @@ And more!
 
 How does this project work under the hood? Well, this project contains two parts, the Arduino code and the Python script. The Arduino code gets the voltage from the potentiometers of the joystick, formats them, and prints them out to serial. Then, the Python script reads that log from the serial port since both Python and Arduino can use it (although Python does require a third party library, `pyserial`), parses and maps it to a key, and uses the `keyboard` library to do a virtual key press, effectively pressing for us.
 
-We can natively do it with other MCUs, but this fairs well to most MCUs since they usually all support serial logging but not all MCUs support keyboard presses.
+We can natively do it with other MCUs with only C++, but this works well to with most MCUs since they usually all support serial logging but not all MCUs support virtual keyboard presses.
+Also, you technically could use a servo or solenoid for each button and physically press it, but that requires more coding, more hardware, mounting, and more things that can go wrong, not to mention problems with integration and putting it on a remote, which you could do if you wanted.
 
 ## Contributing
 
