@@ -40,6 +40,8 @@ Here is the folder structure and what it does:
 * `src/arduino`: Holds source code for Arduino
 * `src/python`: Holds source code for Python
 
+---
+
 ### Common Issues
 
 **Issue**: Python code is throwing errors<br/>
