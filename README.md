@@ -18,30 +18,6 @@ To get started, follow these steps:
 5. Run your Python code (`src/python/main.py`) (might take some tries to stop getting errors)
 6. Play, test, and modify!
 
----
-
-## Folder Structure
-
-```
-.
-├── LICENSE
-├── README.md
-├── schematic.md
-└── src
-    ├── arduino
-    │   └── main.ino
-    └── python
-        └── main.py
-```
-
-Here is the folder structure and what it does:
-
-* `src/`: Holds source code
-* `src/arduino`: Holds source code for Arduino
-* `src/python`: Holds source code for Python
-
----
-
 ### Common Issues
 
 **Issue**: Python code is throwing errors<br/>
